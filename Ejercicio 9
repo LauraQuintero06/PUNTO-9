@@ -1,0 +1,6 @@
+barras_no_frescas = int(input("Número de barras no frescas vendidas: "))
+precio_habitual = 3.49
+descuento = 0.60
+precio_descuento = precio_habitual * (1 - descuento)
+coste_total = barras_no_frescas * precio_descuento
+print("Coste total: $", coste_total)
